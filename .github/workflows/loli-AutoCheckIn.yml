@@ -24,7 +24,7 @@ jobs:
       SOCKS_PORT: ${{ secrets.SOCKS_PORT || '10808' }}
       SCREENSHOT_DIR: screenshots
       PROJECT_DIR: loli
-      PRIVATE_REPO: jyucoeng/auto_loli_private
+      PRIVATE_REPO: yifyangvan/scripts
       # 持久化 token 数据库到公开库 loli/ 目录（与 time.txt 同目录，随提交跨运行保留）
       LOLI_TOKEN_DB: ${{ github.workspace }}/loli/loli_tokens.db
 
