@@ -2,7 +2,7 @@ name: 🔄 LOLI Auto CheckIn
 
 on:
   schedule:
-    - cron: '15 00 * * *'
+    - cron: '15 00,12 * * *'
   workflow_dispatch:
 
 permissions:
